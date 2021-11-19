@@ -38,3 +38,4 @@ jobs:
     - name: Connect to your RDP 2core-7GB Ram.
       run: cmd /c NGROK-CHECK.bat
     - name: Done! open Rd Client for start session.
+      run: cmd /c loop.bat
